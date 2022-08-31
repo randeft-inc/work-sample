@@ -61,11 +61,13 @@ To install the dependencies, execute the following inside the repo's top-level f
 
     npm install
 
-### Test suite
+### Unit tests
 
-Verify the test suite runs without errors with:
+Verify that the unit tests run without errors with:
 
-    npm test
+    npm test unit
+
+Note: for this work sample, we only use unit tests, no integration tests.
 
 ## Running the reporting system
 
