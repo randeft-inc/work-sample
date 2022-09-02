@@ -3,7 +3,7 @@ import { readdirSync, readFileSync } from 'fs';
 const INPUT_FOLDER = './raw_data/';
 
 function DataExtractor() {
-  // For this sample, the extractor reads files for the local disk.
+  // For this sample, the extractor reads files from the local disk.
   // In practice, it would get data from an external system.
 
   this.extract = function extract() {
